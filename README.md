@@ -2,11 +2,11 @@
 
 Practical playbooks for working with coding agents. One page per kind of task. Open the page that matches the job.
 
-## What a playbook is
+## Definition
 
 A playbook says what to prepare, which steps to follow, the prompts to use, what usually goes wrong, and how to tell it worked. Each is written from a real run and revised after use.
 
-## Pick a playbook
+## Playbooks
 
 | Task | Playbook | Use it when |
 |---|---|---|
@@ -17,7 +17,7 @@ A playbook says what to prepare, which steps to follow, the prompts to use, what
 | Dependency migration | [dependency_migration](playbooks/dependency_migration.md) | You are upgrading a framework, language version or major dependency. |
 | Codebase onboarding | [codebase_onboarding](playbooks/codebase_onboarding.md) | You are about to do agent work in a repo that has no `AGENTS.md`, or one you don't know. |
 
-## How they work
+## Workflow
 
 Most playbooks follow four steps: research, plan, implement, check. The agent researches and writes a short summary, then a plan. You review the plan before any code exists. A fresh session implements the plan in small steps, and a final check compares the result with the plan.
 
