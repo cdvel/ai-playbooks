@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # Refactoring
 
-## When to use it
+## Scope
 
 You want to change the structure of code without changing what it does: split a large module, rename for clarity, remove duplication, move responsibilities.
 

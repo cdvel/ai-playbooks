@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # Test backfill
 
-## When to use it
+## Scope
 
 Code has no tests, or too few to change it safely. This is often the first step before [refactoring](refactoring.md) or [legacy redevelopment](legacy_redevelopment.md).
 

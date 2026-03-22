@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # Dependency migration
 
-## When to use it
+## Scope
 
 You are upgrading a framework, a language version or a major dependency, and the new version has breaking changes.
 

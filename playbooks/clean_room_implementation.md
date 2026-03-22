@@ -8,7 +8,7 @@ last_updated: 2026-11-16
 
 This describes a working method. It makes no claim about legal independence from the original work. Get legal advice before relying on it for that purpose.
 
-## When to use it
+## Scope
 
 You want to rebuild something from a written spec, without the implementing session ever seeing the original code. The method keeps two sessions apart: one writes the spec, the other builds from it.
 

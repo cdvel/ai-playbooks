@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # Codebase onboarding
 
-## When to use it
+## Scope
 
 You are about to do agent work in a repo that has no `AGENTS.md`, or one you don't know. The result is an `AGENTS.md` that a fresh session can work from.
 

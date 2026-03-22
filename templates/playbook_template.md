@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # <Playbook name>
 
-## When to use it
+## Scope
 
 *Two or three lines on the task this fits. End with a "Not for" line naming the nearest other playbook.*
 

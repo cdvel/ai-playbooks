@@ -6,7 +6,7 @@ last_updated: 2026-11-16
 
 # Legacy redevelopment
 
-## When to use it
+## Scope
 
 You are modernizing or rebuilding an old codebase piece by piece, while the old system keeps running. The work is a series of slices, each with its own plan and review.
 
