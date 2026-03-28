@@ -2,6 +2,8 @@
 
 Practical playbooks for working with coding agents. One page per kind of task. Open the page that matches the job.
 
+![Four steps in order: research, plan, implement, check. A person reviews the plan, only plan.md crosses into a fresh implementing session, and a failed check returns to implement. Below, six cards show how each playbook adjusts the loop.](docs/playbook_loop.svg)
+
 ## Definition
 
 A playbook says what to prepare, which steps to follow, the prompts to use, what usually goes wrong, and how to tell it worked. Each is written from a real run and revised after use.

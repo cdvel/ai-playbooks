@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img" aria-labelledby="t d">
+  <title id="t">The playbook loop</title>
+  <desc id="d">Four steps in order: research, plan, implement, check. Research may use sub-agents that return summaries. A person reviews the plan. Only plan.md crosses into a fresh implementing session. A failed check returns to implement for the next step. Below, six cards describe how each playbook changes the loop.</desc>
+  <style>
+    .bg { fill:#ffffff; }
+    .h1 { font:400 30px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#000000; }
+    .h2 { font:400 20px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#000000; }
+    .h3 { font:400 15px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#000000; }
+    .sub { font:400 13px "Inter","Helvetica Neue",Arial,sans-serif; fill:#6b7280; }
+    .txt { font:400 12px "Inter","Helvetica Neue",Arial,sans-serif; fill:#222222; }
+    .meta { font:400 11px "Inter","Helvetica Neue",Arial,sans-serif; fill:#6b7280; }
+    .mono { font:400 11px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#222222; }
+    .monoa { font:400 11px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#17707f; }
+    .tag { font:500 10px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#6b7280; }
+    .card { fill:#f9fafb; stroke:#e5e7eb; stroke-width:1; }
+    .box { fill:#f9fafb; stroke:#e5e7eb; stroke-width:1.5; }
+    .boxa { fill:#f9fafb; stroke:#3dbbd2; stroke-width:2.5; }
+    .chip { fill:#ffffff; stroke:#e5e7eb; stroke-width:1; }
+    .chipt { fill:none; stroke:#e5e7eb; stroke-width:1; }
+    .badge { fill:#3dbbd2; }
+    .badget { font:500 11px "Inter","Helvetica Neue",Arial,sans-serif; fill:#111827; }
+    .ln { stroke:#6b7280; stroke-width:1.5; fill:none; }
+    .lnd { stroke:#6b7280; stroke-width:1.2; fill:none; stroke-dasharray:4 4; }
+    .lna { stroke:#3dbbd2; stroke-width:2; fill:none; }
+    .lnad { stroke:#3dbbd2; stroke-width:2; fill:none; stroke-dasharray:6 5; }
+    .rule { stroke:#e5e7eb; stroke-width:1; }
+    .ar { fill:#6b7280; } .ara { fill:#3dbbd2; }
+    .acc { fill:#17707f; }
+    .chipa { fill:#ffffff; stroke:#3dbbd2; stroke-width:1; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill:#262421; }
+      .h1 { font:400 30px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#f3eee6; }
+      .h2 { font:400 20px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#f3eee6; }
+      .h3 { font:400 15px "Alata","Inter","Helvetica Neue",Arial,sans-serif; fill:#f3eee6; }
+      .sub { font:400 13px "Inter","Helvetica Neue",Arial,sans-serif; fill:#a59e92; }
+      .txt { font:400 12px "Inter","Helvetica Neue",Arial,sans-serif; fill:#ddd6ca; }
+      .meta { font:400 11px "Inter","Helvetica Neue",Arial,sans-serif; fill:#a59e92; }
+      .mono { font:400 11px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#ddd6ca; }
+      .monoa { font:400 11px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#56c8dd; }
+      .tag { font:500 10px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace; fill:#a59e92; }
+      .card { fill:#302d29; stroke:#45413b; stroke-width:1; }
+      .box { fill:#302d29; stroke:#45413b; stroke-width:1.5; }
+      .boxa { fill:#302d29; stroke:#56c8dd; stroke-width:2.5; }
+      .chip { fill:#262421; stroke:#45413b; stroke-width:1; }
+      .chipt { fill:none; stroke:#45413b; stroke-width:1; }
+      .badge { fill:#56c8dd; }
+      .badget { font:500 11px "Inter","Helvetica Neue",Arial,sans-serif; fill:#262421; }
+      .ln { stroke:#a59e92; stroke-width:1.5; fill:none; }
+      .lnd { stroke:#a59e92; stroke-width:1.2; fill:none; stroke-dasharray:4 4; }
+      .lna { stroke:#56c8dd; stroke-width:2; fill:none; }
+      .lnad { stroke:#56c8dd; stroke-width:2; fill:none; stroke-dasharray:6 5; }
+      .rule { stroke:#45413b; stroke-width:1; }
+      .ar { fill:#a59e92; } .ara { fill:#56c8dd; }
+      .acc { fill:#56c8dd; }
+      .chipa { fill:#262421; stroke:#56c8dd; stroke-width:1; }
+    }
+  </style>
+  <defs>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" class="ar"/></marker>
+    <marker id="ma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" class="ara"/></marker>
+  </defs>
+
+  <rect class="bg" width="1000" height="700"/>
+
+  <text class="h1" x="40" y="56">One loop for every task</text>
+  <text class="sub" x="40" y="80">Research, plan, implement, check. Each playbook adjusts the loop. The principles say why.</text>
+
+  <!-- boundary between planning and implementing -->
+  <line class="lnad" x1="505" y1="108" x2="505" y2="336"/>
+  <rect class="chipa" x="445" y="340" width="120" height="22" rx="4"/>
+  <text class="monoa" x="505" y="355" text-anchor="middle">fresh session</text>
+
+  <!-- annotations above -->
+  <rect class="chip" x="40" y="118" width="180" height="26" rx="4"/>
+  <text class="meta" x="130" y="135" text-anchor="middle">sub-agents return summaries</text>
+  <line class="lnd" x1="130" y1="144" x2="130" y2="168"/>
+
+  <rect class="badge" x="270" y="118" width="180" height="26" rx="4"/>
+  <text class="badget" x="360" y="135" text-anchor="middle">you review here</text>
+  <line class="lna" x1="360" y1="144" x2="360" y2="166"/>
+
+  <!-- step 1 research -->
+  <rect class="box" x="40" y="170" width="180" height="90" rx="6"/>
+  <text class="h2" x="56" y="202">Research</text>
+  <text class="txt" x="56" y="224">reads code, writes notes</text>
+  <g><rect class="chipt" x="56" y="234" width="30" height="17" rx="4"/><text class="tag" x="71" y="246" text-anchor="middle">P1</text>
+     <rect class="chipt" x="92" y="234" width="30" height="17" rx="4"/><text class="tag" x="107" y="246" text-anchor="middle">P7</text></g>
+
+  <!-- step 2 plan -->
+  <rect class="boxa" x="270" y="170" width="180" height="90" rx="6"/>
+  <text class="h2" x="286" y="202">Plan</text>
+  <text class="txt" x="286" y="224">ordered steps, out of scope</text>
+  <g><rect class="chipt" x="286" y="234" width="30" height="17" rx="4"/><text class="tag" x="301" y="246" text-anchor="middle">P3</text></g>
+
+  <!-- step 3 implement -->
+  <rect class="box" x="560" y="170" width="180" height="90" rx="6"/>
+  <text class="h2" x="576" y="202">Implement</text>
+  <text class="txt" x="576" y="224">one step, test, commit</text>
+  <g><rect class="chipt" x="576" y="234" width="30" height="17" rx="4"/><text class="tag" x="591" y="246" text-anchor="middle">P2</text>
+     <rect class="chipt" x="612" y="234" width="30" height="17" rx="4"/><text class="tag" x="627" y="246" text-anchor="middle">P6</text></g>
+
+  <!-- step 4 check -->
+  <rect class="box" x="790" y="170" width="180" height="90" rx="6"/>
+  <text class="h2" x="806" y="202">Check</text>
+  <text class="txt" x="806" y="224">diff against the plan</text>
+  <g><rect class="chipt" x="806" y="234" width="30" height="17" rx="4"/><text class="tag" x="821" y="246" text-anchor="middle">P4</text></g>
+
+  <!-- arrows between steps -->
+  <line class="ln" x1="220" y1="215" x2="268" y2="215" marker-end="url(#m)"/>
+  <line class="ln" x1="740" y1="215" x2="788" y2="215" marker-end="url(#m)"/>
+
+  <!-- retry loop -->
+  <path class="ln" d="M880 170 V132 H650 V168" marker-end="url(#m)"/>
+  <text class="meta" x="765" y="124" text-anchor="middle">check fails: fix, or next step</text>
+
+  <!-- files -->
+  <line class="lnd" x1="130" y1="260" x2="130" y2="290"/>
+  <rect class="chip" x="70" y="290" width="120" height="26" rx="4"/>
+  <text class="mono" x="130" y="307" text-anchor="middle">research.md</text>
+
+  <line class="lnd" x1="360" y1="260" x2="360" y2="290"/>
+  <rect class="chip" x="300" y="290" width="120" height="26" rx="4"/>
+  <text class="mono" x="360" y="307" text-anchor="middle">plan.md</text>
+
+  <!-- only the file crosses -->
+  <path class="lnad" d="M420 303 H650 V262" marker-end="url(#ma)"/>
+  <text class="meta" x="517" y="324">only plan.md crosses</text>
+
+  <rect class="chip" x="675" y="290" width="110" height="26" rx="4"/>
+  <text class="mono" x="730" y="307" text-anchor="middle">AGENTS.md · P5</text>
+  <line class="lnd" x1="730" y1="290" x2="730" y2="262" marker-end="url(#m)"/>
+
+  <!-- playbook cards -->
+  <line class="rule" x1="40" y1="388" x2="960" y2="388"/>
+  <text class="h2" x="40" y="422">What each playbook changes</text>
+
+  <g>
+    <rect class="card" x="40" y="440" width="300" height="94" rx="4"/>
+    <text class="h3" x="56" y="464">Refactoring</text>
+    <text class="txt" x="56" y="484">Adds a first step: pin current behavior</text>
+    <text class="txt" x="56" y="500">with characterization tests. Tests are</text>
+    <text class="txt" x="56" y="516">off limits while implementing.</text>
+
+    <rect class="card" x="350" y="440" width="300" height="94" rx="4"/>
+    <text class="h3" x="366" y="464">Test backfill</text>
+    <text class="txt" x="366" y="484">Research ranks behaviors by risk.</text>
+    <text class="txt" x="366" y="500">Implement writes tests only and logs</text>
+    <text class="txt" x="366" y="516">the bugs it finds in notes.md.</text>
+
+    <rect class="card" x="660" y="440" width="300" height="94" rx="4"/>
+    <text class="h3" x="676" y="464">Codebase onboarding</text>
+    <text class="txt" x="676" y="484">Plan becomes a draft AGENTS.md. A</text>
+    <text class="txt" x="676" y="500">person adds the unwritten rules. Check</text>
+    <text class="txt" x="676" y="516">is a fresh session using only that file.</text>
+
+    <rect class="card" x="40" y="544" width="300" height="94" rx="4"/>
+    <text class="h3" x="56" y="568">Legacy redevelopment</text>
+    <text class="txt" x="56" y="588">Research maps the system. Plan picks a</text>
+    <text class="txt" x="56" y="604">seam and one slice. The loop repeats</text>
+    <text class="txt" x="56" y="620">per slice, and the old path stays.</text>
+
+    <rect class="card" x="350" y="544" width="300" height="94" rx="4"/>
+    <text class="h3" x="366" y="568">Dependency migration</text>
+    <text class="txt" x="366" y="588">Research reads the changelog and lists</text>
+    <text class="txt" x="366" y="604">breaking changes with file references.</text>
+    <text class="txt" x="366" y="620">Plan decides one jump or several.</text>
+
+    <rect class="card" x="660" y="544" width="300" height="94" rx="4"/>
+    <text class="h3" x="676" y="568">Clean-room implementation</text>
+    <text class="txt" x="676" y="588">Two sessions. spec.md is the only file</text>
+    <text class="txt" x="676" y="604">that crosses. provenance.md records what</text>
+    <text class="txt" x="676" y="620">each session was given.</text>
+  </g>
+
+  <!-- legend -->
+  <text class="meta" x="40" y="668">P1 context is finite  ·  P2 fresh context per phase  ·  P3 review where it is cheapest  ·  P4 let the agent check itself</text>
+  <text class="meta" x="40" y="686">P5 write down what it can't know  ·  P6 small, reversible steps  ·  P7 isolate noisy work</text>
+  <text class="h3" x="960" y="686" text-anchor="end">C<tspan class="acc">é</tspan>sar D. Velandia</text>
+</svg>
