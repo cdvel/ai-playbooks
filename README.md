@@ -10,12 +10,12 @@ Plain markdown · prompts are tool-neutral · all six playbooks are draft-untest
 
 </div>
 
+![Flow from setup to research, plan, implement and check. Sub-agents can search for research. A person reviews the plan, and only plan.md crosses into a fresh implementing session. A failed check returns to implement, and legacy work returns to plan for the next slice. Under each step hang the changes made by individual playbooks.](docs/playbook_loop.svg)
+
 You ask an agent to refactor and behavior changes. You ask for an upgrade and an unrelated package gets pinned. Fifty turns in, the session is full of search output and starts to drift. Each playbook here is one page for one kind of task: what to prepare, the steps, the prompts to paste, what usually goes wrong, and how to tell it worked. They share one loop (research, plan, implement, check), and seven [principles](principles.md) about what goes into the model's context window explain each step.
 
 > [!IMPORTANT]
 > The plan is the one step you review. Implementation starts in a fresh session from `plan.md` alone, so a wrong line is caught in a plan that takes minutes to read, before it becomes hundreds of lines of code.
-
-![Grid with one row per playbook and one column per step: research, plan, implement, check. A person reviews the plan. A dashed line between plan and implement marks the fresh session, and only plan.md crosses it. Each cell says what that playbook does at that step.](docs/playbook_loop.svg)
 
 ## Uses
 
