@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 452" width="1040" height="452" role="img" aria-labelledby="t d"><title id="t">The playbook loop</title><desc id="d">Flow from setup to research, plan, implement and check. Sub-agents can search for research. A person reviews the plan, and only plan.md crosses into a fresh implementing session. A failed check returns to implement, and legacy work returns from check to plan for the next slice. Under each step hang the changes made by individual playbooks.</desc><style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 420" width="1040" height="420" role="img" aria-labelledby="t d"><title id="t">The playbook loop</title><desc id="d">Flow from setup to research, plan, implement and check. Sub-agents can search for research. A person reviews the plan, and only plan.md crosses into a fresh implementing session. A failed check returns to implement, and legacy work returns from check to plan for the next slice. Under each step hang the changes made by individual playbooks.</desc><style>
     .bg{fill:#ffffff}
     .node{fill:#1f2937}.nn{font:400 15px "Alata","Inter","Helvetica Neue",Arial,sans-serif;fill:#f3eee6}
     .nd{font:400 10.5px "Inter","Helvetica Neue",Arial,sans-serif;fill:#cfc8bc}.nt{font:400 9.5px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;fill:#9ca3af}
@@ -21,7 +21,7 @@
     }
 </style>
 <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" class="ar"/></marker></defs>
-<rect class="bg" width="1040" height="452"/>
+<rect class="bg" width="1040" height="420"/>
 <line class="bnd" x1="552" y1="24" x2="552" y2="388"/><text class="bt" x="560" y="300">fresh</text><text class="bt" x="560" y="314">session</text>
 <rect class="node" x="14" y="112" width="102" height="46" rx="3"/>
 <text class="nn" x="24" y="131">Setup</text><text class="nt" x="108" y="130" text-anchor="end"></text><text class="nd" x="24" y="147">AGENTS.md</text>
@@ -95,6 +95,4 @@
 <text class="lbl" x="590" y="402">fresh session starts</text>
 <rect class="pill" x="714" y="392" width="26" height="12" rx="2"/>
 <text class="lbl" x="748" y="402">what one playbook changes</text>
-<text class="lbl" x="14" y="422">P1 context is finite · P2 fresh context per phase · P3 review where it is cheapest · P4 let the agent check itself</text>
-<text class="lbl" x="14" y="438">P5 write down what it can't know · P6 small, reversible steps · P7 isolate noisy work</text>
 </svg>
