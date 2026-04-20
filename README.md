@@ -12,7 +12,7 @@ Plain markdown · prompts are tool-neutral · all six playbooks are draft-untest
 
 ![Flow from setup to research, plan, implement and check. Sub-agents can search for research. A person reviews the plan, and only plan.md crosses into a fresh implementing session. A failed check returns to implement, and legacy work returns to plan for the next slice. Under each step hang the changes made by individual playbooks.](docs/playbook_loop.svg)
 
-The tags are the [principles](principles.md): P1 context is finite, P2 fresh context per phase, P3 review where it is cheapest, P4 let the agent check itself, P5 write down what it can't know, P6 small reversible steps, P7 isolate noisy work.
+[P1](principles.md#p1-context-is-finite) context is finite · [P2](principles.md#p2-fresh-context-per-phase) fresh context per phase · [P3](principles.md#p3-review-where-it-is-cheapest) review where it is cheapest · [P4](principles.md#p4-give-the-agent-a-way-to-check-itself) let the agent check itself · [P5](principles.md#p5-write-down-what-it-cant-know) write down what it can't know · [P6](principles.md#p6-small-reversible-steps) small, reversible steps · [P7](principles.md#p7-isolate-noisy-work) isolate noisy work
 
 You ask an agent to refactor and behavior changes. You ask for an upgrade and an unrelated package gets pinned. Fifty turns in, the session is full of search output and starts to drift. Each playbook here is one page for one kind of task: what to prepare, the steps, the prompts to paste, what usually goes wrong, and how to tell it worked. They share one loop (research, plan, implement, check), and seven [principles](principles.md) about what goes into the model's context window explain each step.
 
