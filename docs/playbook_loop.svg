@@ -11,42 +11,44 @@
     .ln{stroke:#6b7280;stroke-width:1.5;fill:none}.lnd{stroke:#6b7280;stroke-width:1.2;stroke-dasharray:4 4;fill:none}
     .bnd{stroke:#3dbbd2;stroke-width:2;stroke-dasharray:6 5;fill:none}.bt{font:500 10.5px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;fill:#17707f}
     .tab{fill:#3dbbd2}.tabt{font:500 10px "Inter","Helvetica Neue",Arial,sans-serif;fill:#111827}
+    .tg{fill:none;stroke:#8b93a1;stroke-width:1}.tgt{font:500 11px "JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;fill:#f3eee6}
     .ar{fill:#6b7280}
     @media (prefers-color-scheme: dark){
       .bg{fill:#262421}.node{fill:#1d1b19;stroke:#45413b;stroke-width:1}
       .pill{fill:#302d29;stroke:#45413b}.pn{fill:#a59e92}.pt{fill:#ddd6ca}
       .chip{fill:#262421;stroke:#857e73}.chipa{fill:#262421;stroke:#56c8dd}.cm{fill:#e6e0d6}
       .lbl{fill:#a59e92}.br{stroke:#5a554d}.ln,.lnd{stroke:#a59e92}.ar{fill:#a59e92}
+      .tg{stroke:#857e73}
       .bnd{stroke:#56c8dd}.bt{fill:#56c8dd}.tab{fill:#56c8dd}.tabt{fill:#262421}
     }
 </style>
 <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" class="ar"/></marker></defs>
 <rect class="bg" width="1040" height="420"/>
 <line class="bnd" x1="552" y1="24" x2="552" y2="388"/><text class="bt" x="560" y="300">fresh</text><text class="bt" x="560" y="314">session</text>
-<rect class="node" x="14" y="112" width="102" height="46" rx="3"/>
-<text class="nn" x="24" y="131">Setup</text><text class="nt" x="108" y="130" text-anchor="end"></text><text class="nd" x="24" y="147">AGENTS.md</text>
+<rect class="node" x="14" y="112" width="102" height="64" rx="3"/>
+<text class="nn" x="24" y="131">Setup</text><text class="nd" x="24" y="147">AGENTS.md</text>
 <rect class="tab" x="18" y="96" width="34" height="16" rx="2"/><text class="tabt" x="35.0" y="107" text-anchor="middle">you</text>
-<rect class="node" x="152" y="112" width="130" height="46" rx="3"/>
-<text class="nn" x="162" y="131">Research</text><text class="nt" x="274" y="130" text-anchor="end">P1 P7</text><text class="nd" x="162" y="147">read code, no edits</text>
-<rect class="node" x="362" y="112" width="130" height="46" rx="3"/>
-<text class="nn" x="372" y="131">Plan</text><text class="nt" x="484" y="130" text-anchor="end">P3</text><text class="nd" x="372" y="147">steps, scope, checks</text>
+<rect class="node" x="152" y="112" width="130" height="64" rx="3"/>
+<text class="nn" x="162" y="131">Research</text><rect class="tg" x="162" y="155" width="26" height="15" rx="3"/><text class="tgt" x="175" y="166" text-anchor="middle">P1</text><rect class="tg" x="192" y="155" width="26" height="15" rx="3"/><text class="tgt" x="205" y="166" text-anchor="middle">P7</text><text class="nd" x="162" y="147">read code, no edits</text>
+<rect class="node" x="362" y="112" width="130" height="64" rx="3"/>
+<text class="nn" x="372" y="131">Plan</text><rect class="tg" x="372" y="155" width="26" height="15" rx="3"/><text class="tgt" x="385" y="166" text-anchor="middle">P3</text><text class="nd" x="372" y="147">steps, scope, checks</text>
 <rect class="tab" x="366" y="96" width="76" height="16" rx="2"/><text class="tabt" x="404.0" y="107" text-anchor="middle">you review</text>
-<rect class="node" x="622" y="112" width="130" height="46" rx="3"/>
-<text class="nn" x="632" y="131">Implement</text><text class="nt" x="744" y="130" text-anchor="end">P2 P6</text><text class="nd" x="632" y="147">step, test, commit</text>
-<rect class="node" x="842" y="112" width="130" height="46" rx="3"/>
-<text class="nn" x="852" y="131">Check</text><text class="nt" x="964" y="130" text-anchor="end">P4</text><text class="nd" x="852" y="147">diff against the plan</text>
+<rect class="node" x="622" y="112" width="130" height="64" rx="3"/>
+<text class="nn" x="632" y="131">Implement</text><rect class="tg" x="632" y="155" width="26" height="15" rx="3"/><text class="tgt" x="645" y="166" text-anchor="middle">P2</text><rect class="tg" x="662" y="155" width="26" height="15" rx="3"/><text class="tgt" x="675" y="166" text-anchor="middle">P6</text><text class="nd" x="632" y="147">step, test, commit</text>
+<rect class="node" x="842" y="112" width="130" height="64" rx="3"/>
+<text class="nn" x="852" y="131">Check</text><rect class="tg" x="852" y="155" width="26" height="15" rx="3"/><text class="tgt" x="865" y="166" text-anchor="middle">P4</text><text class="nd" x="852" y="147">diff against the plan</text>
 <rect class="tab" x="846" y="96" width="76" height="16" rx="2"/><text class="tabt" x="884.0" y="107" text-anchor="middle">you verify</text>
-<line class="ln" x1="116" y1="143" x2="150" y2="143" marker-end="url(#m)"/>
-<line class="ln" x1="282" y1="143" x2="360" y2="143" marker-end="url(#m)"/>
-<line class="ln" x1="492" y1="143" x2="620" y2="143" marker-end="url(#m)"/>
-<line class="ln" x1="752" y1="143" x2="840" y2="143" marker-end="url(#m)"/>
-<rect class="chip" x="287" y="120" width="70" height="16" rx="2"/><text class="cm" x="322" y="131" text-anchor="middle">research.md</text>
-<rect class="chipa" x="527" y="120" width="60" height="16" rx="2"/><text class="cm" x="557" y="131" text-anchor="middle">plan.md</text>
+<line class="ln" x1="116" y1="144" x2="150" y2="144" marker-end="url(#m)"/>
+<line class="ln" x1="282" y1="144" x2="360" y2="144" marker-end="url(#m)"/>
+<line class="ln" x1="492" y1="144" x2="620" y2="144" marker-end="url(#m)"/>
+<line class="ln" x1="752" y1="144" x2="840" y2="144" marker-end="url(#m)"/>
+<rect class="chip" x="287" y="121" width="70" height="16" rx="2"/><text class="cm" x="322" y="132" text-anchor="middle">research.md</text>
+<rect class="chipa" x="527" y="121" width="60" height="16" rx="2"/><text class="cm" x="557" y="132" text-anchor="middle">plan.md</text>
 <path class="ln" d="M940 112 V86 H690 V110" marker-end="url(#m)"/><text class="lbl" x="815" y="82" text-anchor="middle">check fails: fix, next step</text>
 <path class="lnd" d="M958 112 V64 H470 V110" marker-end="url(#m)"/><text class="lbl" x="715" y="60" text-anchor="middle">legacy: next slice</text>
 <rect class="chip" x="140" y="38" width="130" height="24" rx="12" style="stroke-dasharray:3 3"/><text class="cm" x="205" y="54" text-anchor="middle">sub-agents search</text>
 <path class="lnd" d="M185 62 V110" marker-end="url(#m)"/><path class="lnd" d="M240 112 V64" marker-end="url(#m)"/>
-<path class="br" d="M162 158 V207 H174"/>
+<path class="br" d="M162 176 V207 H174"/>
 <rect class="pill" x="174" y="192" width="150" height="30" rx="3"/><text class="pn" x="182" y="204">refactoring</text><text class="pt" x="182" y="217">pin behavior with tests</text>
 <path class="br" d="M162 222 V243 H174"/>
 <rect class="pill" x="174" y="228" width="150" height="30" rx="3"/><text class="pn" x="182" y="240">legacy</text><text class="pt" x="182" y="253">map the system</text>
@@ -56,7 +58,7 @@
 <rect class="pill" x="174" y="300" width="150" height="30" rx="3"/><text class="pn" x="182" y="312">onboarding</text><text class="pt" x="182" y="325">explore the repo</text>
 <path class="br" d="M162 330 V351 H174"/>
 <rect class="pill" x="174" y="336" width="150" height="30" rx="3"/><text class="pn" x="182" y="348">clean_room</text><text class="pt" x="182" y="361">write spec.md, public only</text>
-<path class="br" d="M372 158 V207 H384"/>
+<path class="br" d="M372 176 V207 H384"/>
 <rect class="pill" x="384" y="192" width="150" height="30" rx="3"/><text class="pn" x="392" y="204">onboarding</text><text class="pt" x="392" y="217">draft AGENTS.md</text>
 <path class="br" d="M372 222 V243 H384"/>
 <rect class="pill" x="384" y="228" width="150" height="30" rx="3"/><text class="pn" x="392" y="240">legacy</text><text class="pt" x="392" y="253">pick a seam, one slice</text>
@@ -64,7 +66,7 @@
 <rect class="pill" x="384" y="264" width="150" height="30" rx="3"/><text class="pn" x="392" y="276">clean_room</text><text class="pt" x="392" y="289">you strip internals</text>
 <path class="br" d="M372 294 V315 H384"/>
 <rect class="pill" x="384" y="300" width="150" height="30" rx="3"/><text class="pn" x="392" y="312">migration</text><text class="pt" x="392" y="325">one jump or stepwise</text>
-<path class="br" d="M632 158 V207 H644"/>
+<path class="br" d="M632 176 V207 H644"/>
 <rect class="pill" x="644" y="192" width="150" height="30" rx="3"/><text class="pn" x="652" y="204">refactoring</text><text class="pt" x="652" y="217">no test-file edits</text>
 <path class="br" d="M632 222 V243 H644"/>
 <rect class="pill" x="644" y="228" width="150" height="30" rx="3"/><text class="pn" x="652" y="240">backfill</text><text class="pt" x="652" y="253">tests only</text>
@@ -72,7 +74,7 @@
 <rect class="pill" x="644" y="264" width="150" height="30" rx="3"/><text class="pn" x="652" y="276">legacy</text><text class="pt" x="652" y="289">old path stays</text>
 <path class="br" d="M632 294 V315 H644"/>
 <rect class="pill" x="644" y="300" width="150" height="30" rx="3"/><text class="pn" x="652" y="312">migration</text><text class="pt" x="652" y="325">fix warnings</text>
-<path class="br" d="M852 158 V207 H864"/>
+<path class="br" d="M852 176 V207 H864"/>
 <rect class="pill" x="864" y="192" width="150" height="30" rx="3"/><text class="pn" x="872" y="204">migration</text><text class="pt" x="872" y="217">read the lockfile diff</text>
 <path class="br" d="M852 222 V243 H864"/>
 <rect class="pill" x="864" y="228" width="150" height="30" rx="3"/><text class="pn" x="872" y="240">clean_room</text><text class="pt" x="872" y="253">tests from the spec</text>
