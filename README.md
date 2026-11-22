@@ -4,7 +4,7 @@
 
 **Playbooks for six kinds of coding-agent work: one loop, the prompts to paste, and checks that show it worked.**
 
-Plain markdown · prompts are tool-neutral · all six playbooks are draft-untested and will be revised after their first real runs · license not yet chosen
+Plain markdown · prompts are tool-neutral · all six playbooks are draft-untested and will be revised after their first real runs · MIT license
 
 [Uses](#uses) · [Using a playbook](#using-a-playbook) · [Playbooks](#playbooks) · [Principles](principles.md) · [Background](#background)
 
@@ -118,3 +118,7 @@ Research with sub-agents, draft `AGENTS.md`, add the unwritten rules, check in a
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - [Best practices for Claude Code](https://code.claude.com/docs/en/best-practices)
 - [Advanced Context Engineering for Coding Agents](https://www.humanlayer.dev/blog/advanced-context-engineering)
+
+## License
+
+MIT
